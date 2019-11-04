@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">بابلون كود</string>
+    <string name="IP">192.168.0.100</string>
+    <string name="PORT">7000</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="search"
+        android:icon="@drawable/ic_action_search"
+        android:id="@+id/Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        >
+
+    </item>
+    <item
+        android:title="Table"
+        android:icon="@drawable/ic_order"
+        android:id="@+id/table_icon"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        >
+
+    </item>
+    <item
+        android:title="Table"
+        android:icon="@drawable/ic_new_order"
+        android:id="@+id/make_order"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        >
+
+    </item>
+
+    <item
+        android:title="other"
+        android:id="@+id/other"
+        app:showAsAction="always"
+        >
+        <item
+            android:title="الاعدادات"
+            android:id="@+id/setting"
+           />
+        <item
+            android:title="تحديث المواد"
+            android:id="@+id/updata_matreal"
+            />
+        <item
+            android:title="خروج"
+            android:id="@+id/exit"
+        />
+    </item>
+
+</menu>
